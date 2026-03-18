@@ -9,6 +9,8 @@ clock = pygame.time.Clock()
 font = pygame.font.SysFont("Consolas", 22)
 rogelio_x = 375
 rogelio_y = 275
+skelly_x = 440
+skelly_y = 340
 running = True
 while running:
     for event in pygame.event.get():
