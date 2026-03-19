@@ -1,0 +1,18 @@
+Import pygame
+import random
+import json
+
+rogelio_stats = { "health": 100, "bolas": 5, "xp": 0
+}
+enemy_stats= { "cumbia_skelly_health": 20,
+ "jorge_el_terrible_health": 50,
+ "la_momia_health": 80
+}
+
+
+def rogelio_update(rogelio_stats,damage_amount):
+    rogelio_stats ["health"] += damage_amount
+    print(f" you took {damage_amount} damage !")
+    print(f" you have {rogelio_stats["health"]} health remaining.")
+
+def
