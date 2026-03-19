@@ -1,5 +1,15 @@
 import pygame
 import random
+import json
+loaded_data = json.load(f)
+game_save = { "health": current_health, "bolas": current_bolas,"weapon_lvl": weapon_lvl, "min_dmg": min_dmg, "max_dmg": max_dmg
+}
+
+save_data.json "w"
+save_data.json "r"
+
+json.dump(game_save,f)
+
 pygame.init()
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
