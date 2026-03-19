@@ -2,6 +2,11 @@ Import pygame
 import random
 import json
 
+
+
+SCREEN_WIDTH = 800
+SCREEN_LENGTH = 600
+
 rogelio_stats = { "health": 100, "bolas": 5, "xp": 0
 }
 enemy_stats= { "cumbia_skelly_health": 20,
