@@ -14,13 +14,15 @@ enemy_stats= {
     "health":20,
     "location": [400,300],
     "level": 1,
-    "base_damage": 10
+    "base_damage": 10,
+    "size": [40,80]
     },
     "jorge_el_terrible": {
         "health":80,
         "location":[400,300],
         "level": 1,
-        "base_damage": 17
+        "base_damage": 17,
+        "size": [400,120]
     }
 }
  
