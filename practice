@@ -9,10 +9,21 @@ SCREEN_LENGTH = 600
 
 rogelio_stats = { "health": 100, "bolas": 5, "xp": 0
 }
-enemy_stats= { "cumbia_skelly_health": 20,
- "jorge_el_terrible_health": 50,
- "la_momia_health": 80
+enemy_stats= { 
+    "cumbia_skelly": {
+    "health":20,
+    "location": [400,300],
+    "level": 1,
+    "base_damage": 10
+    },
+    "jorge_el_terrible": {
+        "health":80,
+        "location":[400,300],
+        "level": 1,
+        "base_damage": 17
+    }
 }
+ 
 
 
 def rogelio_update(rogelio_stats,damage_amount):
