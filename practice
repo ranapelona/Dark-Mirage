@@ -38,7 +38,7 @@ enemy_stats= {
             "location": [400,300],
             "level": 1,
             "base_damage": 17,
-            "size":[45,120]
+            "size":[75,120]
 }
 }
  
