@@ -7,8 +7,16 @@ import json
 SCREEN_WIDTH = 800
 SCREEN_LENGTH = 600
 
-rogelio_stats = { "health": 100, "bolas": 5, "xp": 0
+rogelio_stats = { 
+    "health": 100,
+    "bolas": 5,
+    "xp": 0,
+    "size": [50,80],
+    "base_damage": 5,
+    "weapon_base_damage": 10,
+    "location": [400,300]
 }
+
 enemy_stats= { 
     "cumbia_skelly": {
     "health":20,
