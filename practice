@@ -19,7 +19,7 @@ rogelio_stats = {
 }
 
 enemy_stats= { 
-    "cumbia_skelly": {
+    "skelly": {
     "health":20,
     "location": [400,300],
     "level": 1,
@@ -32,7 +32,14 @@ enemy_stats= {
         "level": 1,
         "base_damage": 17,
         "size": [400,120]
-    }
+    },
+    "Cumbia_skelly_boss": {
+            "health": 80,
+            "location": [400,300],
+            "level": 1,
+            "base_damage": 17,
+            "size":[45,120]
+}
 }
  
 
