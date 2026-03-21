@@ -5,6 +5,7 @@ storage_stats = {
 }
 
 def stats_update():
-    if ["plastic_bags"] <= 100
-    print(f"There are {plastic_bags} plastic bags left, please refill them.)
+    if storage_stats ["plastic_bags"] <= 100:
+        print(f"There are {storage_stats['plastic_bags']} plastic bags left, please refill them.)
+stats_update()
 
